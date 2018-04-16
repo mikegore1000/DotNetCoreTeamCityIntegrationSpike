@@ -1,0 +1,2 @@
+dotnet publish .\DotNetCoreTeamCityIntegrationSpike\DotNetCoreTeamCityIntegrationSpike.csproj -o ..\publishOutput
+dotnet vstest publishOutput\DotNetCoreTeamCityIntegrationSpike.dll /Logger:teamcity /TestAdapterPath:.\publishOutput
